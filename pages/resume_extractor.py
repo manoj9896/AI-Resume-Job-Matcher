@@ -1,7 +1,6 @@
 import streamlit as st
 from pypdf import PdfReader
 from agents.resumeAgent import agent
-from langchain_core.output_parsers.json import JsonOutputParser
 
 st.title("Resume Parsing")
 
